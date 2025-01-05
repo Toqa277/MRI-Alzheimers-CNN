@@ -4,6 +4,7 @@ This project aims to classify Alzheimer's Stages Using 3D, 2D, and Transfer Lear
 ![image](https://github.com/user-attachments/assets/8823e44a-cc73-4f9c-b085-e4941752b85e)
 
 # Installation
+https://github.com/Toqa277/MRI-Alzheimers-CNN.git
 # Primary Scripts
 ## 1. Data Preprocessing 
 it involved multiple essential steps to prepare MRI images for analysis, utilizing the dicom2nifti and antspyx packages. The process included converting DICOM files to NIfTI for a standardized format, applying bias field correction to enhance image quality, and registering images using the MNI152 template for alignment. Skull stripping isolated the brain region, while normalization ensured consistent intensity values. For 2D models, slice extraction converted 3D volumes into 2D slices, and resizing standardized image dimensions for compatibility with CNNs. Finally, min-max normalization scaled pixel values to 0–1, improving model performance.
