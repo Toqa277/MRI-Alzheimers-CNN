@@ -1,0 +1,34 @@
+Instructions for Downloading the MRI ADNI1 Dataset from IDA
+
+1. Register for an Account
+Visit the IDA Portal.
+Click Log In > Create Account and follow these steps:
+Provide your email address and verify it with a security code.
+Complete the registration form by filling in required details.
+After approval, log in to the platform via the IDA Home.
+
+2. Select the ADNI1 Study
+Log in to your IDA account.
+In the Select Study dropdown menu (available on the dashboard), choose ADNI1.
+
+3. Search and Organize Data
+Navigate to the Search Menu:
+Simple Search: Use this for quick data retrieval by entering keywords like "MRI."
+Advanced Search:
+Select specific criteria, such as "MRI modality," "cognitive group (e.g., AD, CN, MCI)," or "visit timeline."
+Refine search results for raw or processed data.
+Organize Results:
+Add selected datasets to a Data Collection for easy management:
+Select datasets from the search results.
+Click Add to Collection, name your collection, and save.
+
+4. Download the ADNI1 MRI Dataset
+Navigate to the Download Menu.
+Choose Image Collections as the data type.
+Download using one of the following methods:
+1-Click Download:
+Select the desired dataset or collection.
+Download the entire dataset as a compressed zip file for convenience.
+Advanced Download:
+Use this option for larger datasets to split downloads into manageable file sizes.
+Follow the instructions to use the IDA Download Manager for efficient downloading.
