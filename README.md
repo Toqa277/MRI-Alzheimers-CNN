@@ -14,4 +14,7 @@ The ADNI1 is a public-private collaboration supported by organizations such as t
  it is one of the largest datasets available for Alzheimer's research. It includes 32,559 original MRI scans that areclassed as follows: 6,584 photos from AD patients,
  20,025 photos from MCI subjects, and 11,046 photos from CN participants
 # External Packages of Note
-# Contributers 
+# Contributers
+* Abdelrahman Fouad
+* Suhaila Samir
+* Toqa Khaled
