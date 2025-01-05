@@ -4,14 +4,13 @@
 
 - Data Preprocessing: Data Conversion to Standardized Format by Converting DICOM to NIfTI simplifies the file structure by combining multiple image slices into a single file. Bias Field Correction to enhancing image quality. Registration to ensure that common features overlap using the MNI152 template which serves as a standardized reference for brain imaging. Skull Stripping by removing non-brain tissues from MRI images that isolates the brain region. Normalization (Optional here) to produce consistent and comparable intensity values across different images. Slice Extraction (Only for 2D Model and Transfer Learning) by converting 3D MRI volumes into 2D slices to enhance computational efficiency and increase the number of training samples. Resizing images to a fixed resolution ensures consistent input sizes for CNNs facilitating compatibility with pre-trained models and improving training efficiency. Then finally Normalization (Mandatory) Min-max normalization was applied to scale the pixel intensity values to a range of 0 to 1, enhancing the models' performance.
 
-- Train - Validation - Test Split:  The data was splitted into 80% for training (and 20% from this 80% was taken for validation): 20% for testing.
+- Train - Validation - Test Split:  The data was slitted into 80% for training (and 20% from this 80% was taken for validation): 20% for testing.
 
 - Training using our three different models: 3D ResNet-18 CNN, 2D-Dual proposed CNN and VGG16 Transfer Learning Model on the training and validation sets over 50 epochs.
 
 - Testing the three models by utilizing the three models to a multi-stage classification (AD, CN, MCI).
 
 - Using Confusion Matrix, ROC curve, accuracy, precision, F1 score and Recall to evaluate our Findings.
-
 
 # Design Decisions
 
@@ -52,6 +51,7 @@ Classifier : softmax
 
 
 # Algorithms use and 
+
 
 - 3D ResNet-18
 ResNet-18 is a deep learning network built on the Residual Learning framework, where identity shortcut connections bypass layers, allowing input to connect directly to the output. Each residual block learns a mapping F(x) + x,  optimizing residual functions instead of full transformations, which prevents the vanishing gradient problem. 
