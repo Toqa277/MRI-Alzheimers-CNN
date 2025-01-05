@@ -12,6 +12,7 @@
 
 - Using Confusion Matrix, ROC curve, accuracy, precision, F1 score and Recall to evaluate our Findings.
 
+
 # Design Decisions
 
 - For preprocessing, MNI152 template was used for registration, A three slice from three different planes were extracted from each 3D T1w MRI images, Min-Max normalization (0,1) was done.
@@ -41,16 +42,16 @@ Classifier : softmax
 - VGG16 Transfer Learning Model Hyperparameters:
 
 Learning rate : 1e-5 
-Number of epochs : 50
+Number of epochs : 30
 Loss function / activation function : cross entropy , ReLu
 Optimizer : Adam 
-Batch size :  32
+Batch size :  16
+Dropout rate : 50%
 L2 Regularization: Applied to all Conv2D layers  and dense layers . with penalty strength: l2(0.001) 
 Classifier : softmax 
 
 
 # Algorithms use and 
-
 
 - 3D ResNet-18
 ResNet-18 is a deep learning network built on the Residual Learning framework, where identity shortcut connections bypass layers, allowing input to connect directly to the output. Each residual block learns a mapping F(x) + x,  optimizing residual functions instead of full transformations, which prevents the vanishing gradient problem. 
